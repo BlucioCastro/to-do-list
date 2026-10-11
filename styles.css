@@ -1,0 +1,67 @@
+/* color input #282B31 */
+
+.completed span{
+	text-decoration: line-through;
+}
+.body-bg {
+	background-color: #de5984;
+	color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 96vh;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main-div {
+	background-color: #394046;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+	border-radius: 0.25rem;
+}
+.inputAndBtns {
+	background-color: #282b31;
+	color: #de5984;
+	border-radius: 0.25rem;
+	border: 1px solid #de5984;
+	padding: 0.5rem;
+  cursor: pointer;
+}
+.removeBtn {
+	background-color: #282b31;
+	color: #de5984;
+	border-radius: 0.25rem;
+	border: 1px solid #de5984;
+	padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+#taskList {
+	max-height: 15rem;
+	overflow-y: auto;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.taskItens {
+	color: #de5984;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	border: 2px solid #282b31;
+	padding: 0.2rem;
+}
+.taskItens span {
+	flex: 1;
+}
+.taskItens button {
+	margin-left: auto;
+}
+.taskItens input[type="checkbox"] {
+	accent-color: #de5984;
+	width: 1.1rem;
+	height: 1.1rem;
+	cursor: pointer;
+}
